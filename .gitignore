@@ -1,5 +1,12 @@
 # Prerequisites
 *.d
+*.aux
+*.gz
+*.txt
+*.blg
+*.bbl
+*.log
+*.pdf
 
 # Compiled Object files
 *.slo

@@ -7,6 +7,12 @@
 *.bbl
 *.log
 *.pdf
+*.psd
+*.ai
+*.mtl
+*.objbak
+*.rhl
+*.3dmbak
 
 # Compiled Object files
 *.slo

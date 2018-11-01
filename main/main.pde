@@ -32,8 +32,8 @@ void setup() {
   frameRate(25);
   /* start oscP5, listening for incoming messages at port 12000 */
   oscP5 = new OscP5(this,7400);
-  happyTTS = new SoundFile(this, "Happy_TTS.mp3");
-  sadTTS = new SoundFile(this, "Sad_TTS.mp3");
+  //happyTTS = new SoundFile(this, "Happy_TTS.mp3");
+  //sadTTS = new SoundFile(this, "Sad_TTS.mp3");
 
   /* myRemoteLocation is a NetAddress. a NetAddress takes 2 parameters,
    * an ip address and a port number. myRemoteLocation is used as parameter in
@@ -68,9 +68,9 @@ void oscEvent(OscMessage theOscMessage) {
   }
   
   if (happiness >= sadiness){
-    happyTTS.play();
+    //happyTTS.play();
   } else {
-    sadTTS.play();
+    //sadTTS.play();
   }
   
   

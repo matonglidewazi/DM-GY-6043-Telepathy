@@ -17,22 +17,22 @@
 
 \begin{abstract}
 
-Telepathy, as coined word used to be popular in Gothic imagination and psychoanalysis, is misused by recent scholars and converted into ideas such as \textit{implicit interaction} or \textit{silent speech}. This paper rediscover the concept of telepathy , the modern implement of telepathy and discuss the possible 2 new implement of telepathy in modern Brain-computer Interface (BCI) context.
+Telepathy, as coined word used to be popular in Gothic imagination and psychoanalysis, is reused by recent scholars and converted into ideas such as \textit{implicit interaction} or \textit{silent speech}. This paper rediscover the concept of telepathy , the modern implement of telepathy and discuss two possible new implement of telepathy in modern Brain-computer Interface (BCI) context.
 
 This paper describe design and implement of two telepathy applications based on two popular BCI paradigms respectively: ERP(Event-Related Potentials) and ERD/ERS (Event-Related De/Synchronizations). The first one typically involves the immediate potential change after the stimulation of certain frequency of flash light, which could be decoded into binary signal for text-based communication. The second one could be feeded into machine learning model to regress measure a mid-term emotional state for emotion sharing.  
 \end{abstract}
 
 \section{Introduction}
 
-The word telepathy, coined in 1882 by poet Frederic Myers: "we venture to introduce the words \textit{Telaethesia} and \textit{Telepathy} to cover all cases of impression received at a distance" \autocite{luckhurst2002invention}. It is initially defined as \textit {forms of occult relation or communication between people at distance}. \autocite{luckhurst2002invention} It was proposed with the wave of modernism and deeply  strongly connected with Gothic imagination, mother's hyper-sensitivity and psycho-analysis \autocite{freud1955dreams}.
+The word telepathy, coined in 1882 by poet Frederic Myers: "we venture to introduce the words \textit{Telaethesia} and \textit{Telepathy} to cover all cases of impression received at a distance" \autocite{luckhurst2002invention}. It was initially defined as \textit {forms of occult relation or communication between people at distance}. \autocite{luckhurst2002invention} It was proposed with the wave of modernism and deeply  strongly connected with Gothic imagination, mother's hyper-sensitivity and psycho-analysis \autocite{freud1955dreams}.
 
 \subsection{the Concept of Telepathy}
 
-Unlike other coined concept such as mattiods or vortex atoms, telepathy break into culture and blooms quickly and still popular in present days \autocite{luckhurst2002invention}, as a fancy metaphor for research scientists. But back to 1900s, the relationship between telepathy and science is quite different. Contemporary scientists focus on coining telepathy, regarding it as a far dream where people could interact naturally at distance with aid of technology. 
+Unlike other coined concept such as mattiods or vortex atoms, telepathy broke into culture and bloomed quickly and is still popular in present days \autocite{luckhurst2002invention}, as a fancy metaphor for research scientists. But back to 1900s, the relationship between telepathy and science was quite different. Contemporary scientists focus on implementation of telepathy, regarding it as a far dream where people could interact naturally at distance fluently with aid of technology. 
 
-Far before the existence of science, the record of telepathy has appeared in religious background, either as a privilege of God, such as \textit{Then the LORD saw that the wickedness of man was great on the earth, and that every intent of the thoughts of his heart was only evil continually} (Genesis 6:5) or as a sign of strong connection and familiarity between people, such as \textit{Behold, I know your thoughts, and the plans by which you would wrong me}(Job 21:27).
+Far before the existence of science, the record of telepathy had appeared in religious background, either as a privilege of God, such as \textit{Then the LORD saw that the wickedness of man was great on the earth, and that every intent of the thoughts of his heart was only evil continually} (Genesis 6:5) or as a sign of strong connection and familiarity between people, such as \textit{Behold, I know your thoughts, and the plans by which you would wrong me}(Job 21:27).
 
-By the time science itself was born in late 1800s, all those phenomena were ex pained with religiously. Since the science clubs were constituted as \textit{pure free, untrammelled by religious dogmas} \autocite{feist2017religion}, the naturalism (proper observation and experimental condition) was dominant. On the other hand, there is another stream of scientist went against the naturalism, focusing on the study and application of super natural phenomena. The naturalism and spiritualism hated each other, both hated and hated by the Church. It wasn't decades of fighting until 1879 the two groups settle down and collaborate on psychical research, that is also a period when psychological became a part of science subject. It was easy to explain why the initial scientific research on telepathy was all about explaining the telepathy experienced by people, claiming or counter claiming the existence of telepathy in the world\autocite{luckhurst2002invention} and analyzing the experience of telepathy psychologically. Since it is a balanced result among two groups of research scientists and church. 
+By the time science itself was born in late 1800s, all those phenomena were explained religiously. Since the science clubs were constituted as \textit{pure free, untrammelled by religious dogmas} \autocite{feist2017religion}, the naturalism (proper observation and experimental condition) was the dominant trend. On the other hand, there was another stream of scientists went against the naturalism, focusing on the study and application of super natural phenomena, they were called spiritualism. The naturalism and spiritualism hated each other, both hated and hated by the Church. It wasn't decades of fighting until 1879 the two groups settled down and collaborated on psychical research, that is also a period when psychological became a part of science subject. It was easy to explain why the initial scientific research on telepathy was all about explaining the telepathy experienced by people, claiming or counter claiming the existence of telepathy in the world\autocite{luckhurst2002invention} and analyzing the experience of telepathy psychologically. Since it was a balanced result among two groups of research scientists and church. 
 
 Under this background, the first case of telepathy was proposed in science community on a journal of psychical research by William Barrett\autocite{luckhurst2002invention}. In a paper named \textit{On some phenomena associated with abnormal conditions of mind}, he described an abnormal experience that a peasant girl never go beyond the village could describe her memory in mind on Regent Street. \autocite{barrett1882some} Barrett explained as "the nervous action associated with thought can be excited by a corresponding action...across space and without the intervention of recognized organs of sensation."\autocite{luckhurst2002invention}.
 
@@ -44,10 +44,9 @@ The collection of those personal experience report continued through 1880s, unti
 
 Despite the claiming and counter claiming the possibility of telepathy, another group of scientists were exploring the possibility of fancy remote communication method, coining the telepathy in a less fraud manner. An early example would be the Sympathetic resonance in John Tyndall's \textit{Sound} \autocite{tyndall1897sound}.
 
-As a fancy demo in 1800s, the sympathetic resonance is no more than two fork resonating one another, just the behaviour is magnified in a interesting manner.
-Two small mirror is installed on each fork respectively. When one fork is hit, the resonance of two forks would be zoomed as the change of lighting pattern on the screen. 
+As a fancy demo in 1800s, the sympathetic resonance is no more than two fork resonating one another, just the behaviour is magnified in a interesting manner.Two small mirror is installed on each fork respectively. When one fork is hit, the resonance of two forks would be zoomed as the change of lighting pattern on the screen. 
 
-Although this is a simple physical experiment in eye of contemporary people, it is quite a shocking demo in 18 century. The relationship between this demo and telepathy is simple. And it is quite well known in the telepathy community as an evidence. Although the analogy is very confusing today, it is indeed the first popular wireless communication demo. By that time people already known that mind movement are probably composed of electromagnetic wave. And since wave source would resonate with one another, the mind would resonate with each other, just as the forks.
+Although this was a simple physical experiment in eye of contemporary people, it was quite a shocking demo in 18 century. And it was quite well known in the telepathy community as an evidence. Although the analogy is very confusing today, it was indeed the first popular wireless communication demo. The relationship between this demo and telepathy is simple. By that time people already known that mind movement are probably composed of electromagnetic wave. And since wave source would resonate with one another, the mind would resonate with each other, just as the forks. And people at that time were pretty satisfied with this ridiculous proof.
 
 \begin{figure}
 	\centering
@@ -63,7 +62,7 @@ Although this is a simple physical experiment in eye of contemporary people, it 
 	\label{fig:Sound1}
 \end{figure}
 
-Regarded as the real foundation of wireless communication \autocite{bell1876improvement}, the Bell's telephone patent in 1876 does not considered to be a major contribution of telepathy research community by their colleagues. Probably because the device and method of interaction is quite disenchanted and straightforward to understand.
+And regarded as the real foundation of wireless communication \autocite{bell1876improvement}, the Bell's telephone patent in 1876 did not considered to be a major contribution of telepathy research community by their colleagues. Probably because the device and method of interaction was quite disenchanted and straightforward to understand.
 
 \begin{figure}
 	\centering
@@ -72,23 +71,23 @@ Regarded as the real foundation of wireless communication \autocite{bell1876impr
 	\label{fig:Bell}
 \end{figure}
 
-Telephone for scientists was more practical, tangible and especially profitable. It really help the communication between people and make inventors rich. Telepathy on the other hand, remained a black-box no matter how solid the scientist stated their founding was and how fancy was the story. Telepathy failed to evolve into a life changing industry since it could not be practiced successfully by everyone.
+Telephone for scientists was more practical, tangible and especially profitable. It really helped the communication between people and made inventors rich. Telepathy on the other hand, remained a black-box no matter how solid the scientist stated their founding was and how fancy was the story. Telepathy failed to evolve into a life changing industry since it could not be practiced successfully by everyone.
 
 As Dobkin concluded, "I know that many men of light and discernment now regard telepathy as am established face, and in these days of wireless it would be rash to deny the possibility of it." \autocite{luckhurst2002invention}, many scholars suspect the possibility of real telepathy as superpower or mental phenomena. But they provisioned the realization of telepathy in era of wireless communication.
 
-Although It is hard to say whether Dobkin admitted that his previous works is dubious. It would be clear that even the scientists working with telepathy at that time more or less suspect the soundness of it. After a long period of weird entanglement with science community, the concept of telepathy gradually fade out  and dives into late Victorian Gothic fantasy, and served as a major topic in fictions for quite a long time.\autocite{luckhurst2002invention} It remains a deeply related concept with topic such as the woman sensitive and after-live.
+Although It is hard to say whether Dobkin admitted that his previous works was dubious. It would be clear that even the scientists working with telepathy at that time more or less suspected the soundness of it. After a long period of weird entanglement with science community, the concept of telepathy gradually faded out and dived into late Victorian Gothic fantasy, and served as a major topic in fictions for quite a long time.\autocite{luckhurst2002invention} It remains a deeply related concept with topic such as the woman sensitive and after-live.
 
 \subsection{the Modern Implement of Telepathy}
 
-It is not surprising that until recently telepathy has floated from the surface and noticed again by science community. A quite reasonable pathway of "tele-" technology should be telegraph, telephone, television, and finally telepathy. The difficulty of signal processing and band-width needed increase all the way. And any telepathy demo before the mature of wireless communication is quite unsound. But it is not an overstatement that today, the technology is ready for telepathy.
+It is not surprising that until recently telepathy has floated from the surface and noticed again by science community. A quite reasonable pathway of "tele-" technology should be telegraph, telephone, television, and finally telepathy. The difficulty of signal processing and band-width needed for communication increase all the way. And any telepathy demo before the mature of wireless communication is quite unsound. But it is not an overstatement that today, the technology is ready for telepathy.
 
 The modern implement of Telepathy is generally more reasonable and practical than their eye-catching ancestors. The point shift from whether the super natural power of communication exist to make the users feel that it exist. In terms of initial point, the modern researcher disenchant the concept by technology and focus on the user's experience. The telegraph requires professional translation, telephone need manipulation to learn, but television (well I mean video call, not broadcasting) has evolved into a quite natural way of interaction. And telepathy, by no doubt, should be another level of user experience in terms of how natural and affordable the interaction is. 
 
-In general, the modern telepathy would first involve deliberate interruption of communication signal at different level. For example, the lip reading is the interruption of signal at speaking level (this could also be divided into 4 stages: Breathing, Phonation, Resonation and Articulation), brain computer interface based spelling is the interruption of signal at thought-muscle level. Then the interrupted signal is received, on the other hand, by artificial device, then being proceeded and used for future communication or interaction.
+If the communication is exchanging information or signal, the modern telepathy would first involve deliberate interruption of communication signal at different level. This interruption would produce different user experience. For example, the lip reading is the interruption of signal at speaking level (this could also be divided into 4 stages: Breathing, Phonation, Resonation and Articulation), brain computer interface based spelling is the interruption of signal at thought-muscle level. Then the interrupted signal is received, on the other hand, by artificial device, then being proceeded and used for future communication or interaction.
 
-Another main difference is, thanks to NSF - National Science Foundation, modern telepathy start from practical use than unrealistic imagination. For example, one of the most important use of brain computer interface, so called motion imaginary, is widely applied for manipulation of wheel chair or artificial limb for those with physical inconvenience. And the start point of this technology, is building reimbursement equipment for the veterans who lost their legs in mining field of Vietnam \autocite{zander2014towards}.
+Another main difference is, thanks to NSF - National Science Foundation, modern telepathy start from practical use than unrealistic imagination. For example, one of the most important use of brain computer interface, so called motion imaginary, is widely applied for manipulation of wheel chair or artificial limb for those with physical inconvenience. And the start point of this technology, is building reimbursement equipment for the veterans who lost their legs in mining field of Vietnam \autocite{zander2014towards}. In terms of practical level, the telepathy has been disenchanted and stepped into professional service. Although not used by everyone, the mysterious cloak has been dismantled. 
 
-\subsubsection{interrupt signal at sound level: Silent speech interface}
+\subsubsection{Interrupt Signal at Sound Level: Silent Speech Interface}
 
 One of the major concern of voice interaction is keep the action of speech as not prominent as possible. For example, you are in a dinner with a couple of friends while you have to evoke the Siri, talking to Siri directly would bring awkwardness to both your friends and you.
 
@@ -150,7 +149,11 @@ The trait of brain-computer interface is that it interrupt signal from central n
 
 One good example of using brain computer interface is the P300 based spelling machine, which is commonly used as an alternative text input method for people having trouble speak or move their hand, A typical implement of P300 speller\autocite{krusienski2008toward} would requires a screen with a flashing alphabet matrix \autocite{sakai2012alphabet}. The people would implicitly choose the correct character they want to spell by choosing the row first than column (will be discussed in detail later).
 
-\subsection{the Paradigm of Brain Computer Interface}
+\subsection{the Paradigm of modern Brain Computer Interface}
+
+Although the idea of reading Electroencephalogram (EEG) could be traced back to 1929 \autocite{RN46}, the concept of brain-computer interface (BCI) was not proposed until early 1970s \autocite{RN48}. Initially, it was adopted to restore independence of people with neural pathways diseases. Since it could bypass the normal output of brain such as peripheral nerves and read signals directly \autocite{RN37}.
+
+Nowadays, BCI has been freed from the original medical definition \autocite{RN37}. Instead of a "non-muscular communication and control channel for neuromuscular disabilities" \autocite{RN46}, BCI has expanded to serve general communication need of healthy people \autocite{RN37}. 
 
 The advantage of using brain computer interface for telepathy is: ,
 
@@ -225,7 +228,7 @@ Another popular approach would be direct alphabet based flashing matrix in front
 
 \subsection{Conclusion and Discussion of Encoded Communication Approach based on ERP}
 
-This prototype is a novel implementation of classical P300 spelling machine using augument reality. Compared with the classical approach, it has advantage such as portable, possible to conduct multi-user chatting, and fine for multi-tasking. 
+This prototype is a novel implementation of classical P300 spelling machine using augmented reality. Compared with the classical approach, it has advantage such as portable, possible to conduct multi-user chatting, and fine for multi-tasking. 
 
 Instead of the computer screen, the visual stimuli of this prototype is projected on Microsoft Hololens and appears like a hologram, which allow user to pay visual attention on the environment without being stuck on the text input task. Besides the speller, the device also contains a receiver which could be used to receive message sent from other user on the server.
 
@@ -323,7 +326,7 @@ A major problem of prototype implement is that only one Emotiv EEG headset could
 
 On the model training side, the model is trained on a subject dependent. Which means the accuracy of model is based on the fact that training data-set and testing data-set contains same subject. While subject independent modeling should be adopted since this would produce a universal result where different subject could use the same model, despite the fact that ERD/ERS based emotion classification is quite limited to per-subject based experiment. The pattern of subject's emotion and EEG is quite individual based according to current research method.
 
-\section{Discussion}
+\section{Conclusion and Discussion}
 
 This paper discuss the concept of telepathy and, historical and modern implement of telepathy and describe two telepathy prototype based on brain-computer interface. The first implement integrate mixed reality with P300 signal spelling. This enhances the portability and usability of BCI based spelling machine. The other use a pre-trained model based on DEAP data-base. It improves the accuracy of DEAD based emotion using rank extraction technique. It also provides a demo forcing the emotion sharing among people. 
 
@@ -331,7 +334,7 @@ Both of the prototype is envision based and not fully functional due to lack of 
 
 \section{Acknowledgement}
 
-Thanks Dr. Matthew Hockenberry for teaching me media theory during the whole semester. The lectures and read lists are really helpful. Thanks Mrs. Rebecca G Silver from NYU Wassermann Center for providing fund to the equipment, so I could afford the Emotive EEG headset. Thanks to my friends Sara and Mingming for giving me advice on English grammar.
+Thanks Dr. Matthew Hockenberry for teaching me media theory during the whole semester. The lectures and read lists are incredibly helpful. Thanks Mrs. Rebecca G Silver from NYU Wassermann Center for providing fund to the equipment, so I could afford the Emotive EEG headset. Thanks to my friends Sara and Mingming for giving me advice on English grammar.
 
 \printbibliography
 
